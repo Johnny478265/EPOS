@@ -1,0 +1,29 @@
+CONFIGURATION:
+dataset = test
+output = C:\Users\Jonat\OneDrive\Desktop\ETH-Fächer\Master\1. Semester\Advanced Topics in Control\atic-final-project\EPOS\output\test_1749210510
+==============
+numSimulations = 5
+dataset = test
+numAgents = 10
+numPlans = 10
+planDim = 11
+numIterations = 40
+numChildren = 2
+--------------
+alpha = 0.0
+beta = 0.2
+global cost function = func.RMSECostFunction@29ca901e
+local cost function = index
+goal signal = 1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0
+--------------
+permutationID = 0
+reorganizationSeed = 0
+permutationSeed = 0
+permutationFile = null
+reorganizationPeriod = 3
+memorizationOffset = 5
+reorganizationStrategy = GLOBAL_COST_REDUCTION
+convergenceTolerance = 0.5
+--------------
+loggingLevel = SEVERE
+Selected Loggers: GlobalCostLogger, HardConstraintLogger, PlanFrequencyLogger, UnfairnessLogger, WeightsLogger, PositionLogger, SelectedPlanLogger, VisualizerLogger, GlobalComplexCostLogger, LocalCostMultiObjectiveLogger, TerminationLogger, ReorganizationLogger, GlobalResponseVectorLogger
